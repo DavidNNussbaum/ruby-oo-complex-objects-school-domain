@@ -1,0 +1,14 @@
+
+[1mFrom:[0m /home/david/labs/ruby-oo-complex-objects-school-domain/lib/school.rb:21 School#add_student:
+
+    [1;34m20[0m: [32mdef[0m [1;34madd_student[0m(student, grade)
+ => [1;34m21[0m:     binding.pry
+    [1;34m22[0m:     [32mif[0m grade != roster.key
+    [1;34m23[0m:         @roster[grade] = []
+    [1;34m24[0m:         @roster[grade] << student
+    [1;34m25[0m:     [32melse[0m
+    [1;34m26[0m:         @roster[grade] << student  
+    [1;34m27[0m:     [32mend[0m  
+    [1;34m28[0m: 
+    [1;34m29[0m: [32mend[0m
+
